@@ -1,0 +1,39 @@
+/* ── Subject Card ─────────────────────────────────────────────── */
+.subject-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 20px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  color: #333;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.subject-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 48, 135, 0.12);
+  transform: translateY(-3px);
+}
+
+.subject-card__icon {
+  font-size: 40px;
+  margin-bottom: 14px;
+  line-height: 1;
+}
+
+.subject-card__title {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #003087;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.subject-card__count {
+  font-size: 13px;
+  color: #777;
+}

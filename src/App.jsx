@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
+import SubjectGrid from './components/SubjectGrid'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main>
         <HeroSection />
+        <SubjectGrid />
       </main>
     </div>
   )
